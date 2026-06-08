@@ -153,7 +153,7 @@ const carregarHorariosReservados = async () => {
 };
 
   const enviarWhatsApp = async () => {
-  const origem = localStorage.getItem("origem_lp") || "LP - Curso de Inglês";
+  const origem = localStorage.getItem("origem_lp") || "LP - Curso de Francês";
   if (!nome || !email || !objetivo || !nivel || !data || !horario) {
   alert("Preencha nome, e-mail, objetivo, nível, data e horário antes de enviar.");
   return;
@@ -496,31 +496,31 @@ function LandingPage() {
 
           <div className="relative mx-auto max-w-7xl px-5 py-16 md:py-24 grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-xs font-semibold tracking-wide">
-                <MapPin className="h-3.5 w-3.5" /> LIMEIRA / SP — ESCOLA DE INGLÊS
-              </span>
+             <span className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-xs font-semibold tracking-wide">
+  <MapPin className="h-3.5 w-3.5" /> LIMEIRA / SP — ESCOLA DE FRANCÊS
+</span>
 
-              <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.05]">
-                Curso de Inglês em Limeira com Conversação Real
-              </h1>
+<h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.05]">
+  Curso de Francês em Limeira com Conversação Real
+</h1>
 
-              <p className="mt-5 text-lg md:text-xl text-white/85 max-w-xl">
-                Aprenda inglês com uma metodologia prática, não-linear e focada em fazer você ganhar
-                confiança para conversar desde as primeiras aulas. Agende sua aula demonstrativa gratuita.
-              </p>
+<p className="mt-5 text-lg md:text-xl text-white/85 max-w-xl">
+  Aprenda francês com uma metodologia prática, não-linear e focada em fazer você ganhar
+  confiança para conversar desde as primeiras aulas. Agende sua aula demonstrativa gratuita.
+</p>
 
-              <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/90">
-                {[
-                  "+25 anos de experiência",
-                  "+4.000 alunos",
-                  "Aulas 100% conversação",
-                  "Certificado",
-                ].map((t) => (
-                  <li key={t} className="flex items-center gap-1.5">
-                    <CheckCircle2 className="h-4 w-4 text-[oklch(0.85_0.18_145)]" /> {t}
-                  </li>
-                ))}
-              </ul>
+<ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/90">
+  {[
+    "+25 anos de experiência",
+    "+4.000 alunos",
+    "Aulas 100% conversação",
+    "Certificado",
+  ].map((t) => (
+    <li key={t} className="flex items-center gap-1.5">
+      <CheckCircle2 className="h-4 w-4 text-[oklch(0.85_0.18_145)]" /> {t}
+    </li>
+  ))}
+</ul>
 
               <div className="mt-8 flex flex-wrap gap-3">
                <a
@@ -549,7 +549,7 @@ function LandingPage() {
 
   <img
     src={heroImg}
-    alt="Professora conduzindo aula de conversação em inglês com alunos engajados na Excellent Global, Limeira"
+    alt="Professora conduzindo aula de conversação em francês com alunos engajados na Excellent Global, Limeira"
     width={1536}
     height={1024}
     fetchPriority="high"
@@ -558,25 +558,25 @@ function LandingPage() {
   />
 
   {/* FLAGS */}
-  <div className="absolute top-4 right-4 flex gap-2 z-20">
-    {[
-      { src: "https://flagcdn.com/w40/us.png", alt: "Estados Unidos" },
-      { src: "https://flagcdn.com/w40/gb.png", alt: "Reino Unido" },
-      { src: "https://flagcdn.com/w40/ca.png", alt: "Canadá" },
-    ].map((flag) => (
-      <img
-        key={flag.alt}
-        src={flag.src}
-        alt={flag.alt}
-        className="w-8 h-8 rounded-full object-cover border-2 border-white shadow-md"
-      />
-    ))}
-  </div>
+<div className="absolute top-4 right-4 flex gap-2 z-20">
+  {[
+    { src: "https://flagcdn.com/w40/fr.png", alt: "França" },
+    { src: "https://flagcdn.com/w40/be.png", alt: "Bélgica" },
+    { src: "https://flagcdn.com/w40/ch.png", alt: "Suíça" },
+  ].map((flag) => (
+    <img
+      key={flag.alt}
+      src={flag.src}
+      alt={flag.alt}
+      className="w-8 h-8 rounded-full object-cover border-2 border-white shadow-md"
+    />
+  ))}
+</div>
 
-  {/* LABEL */}
-  <div className="absolute top-16 right-4 bg-white/90 backdrop-blur text-primary text-xs font-bold px-3 py-1.5 rounded-full shadow z-20">
-    Curso de Inglês • Conversação Real
-  </div>
+{/* LABEL */}
+<div className="absolute top-16 right-4 bg-white/90 backdrop-blur text-primary text-xs font-bold px-3 py-1.5 rounded-full shadow z-20">
+  Curso de Francês • Conversação Real
+</div>
 
               <div className="absolute -bottom-5 -left-5 bg-white text-foreground rounded-2xl p-4 shadow-elegant flex items-center gap-3 max-w-[230px]">
                 <div className="flex -space-x-2">
@@ -605,8 +605,8 @@ function LandingPage() {
         <section className="py-20 md:py-28">
           <div className="mx-auto max-w-5xl px-5 text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold">
-              Você entende inglês, mas trava na hora de falar?
-            </h2>
+  Você entende francês, mas trava na hora de falar?
+</h2>
 
             <p className="mt-5 text-lg text-muted-foreground max-w-2xl mx-auto">
               Muitas pessoas estudam inglês por anos, decoram regras e fazem exercícios, mas continuam
@@ -617,13 +617,13 @@ function LandingPage() {
 
           <div className="mx-auto max-w-6xl px-5 mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              "Tenho vergonha de falar inglês.",
-              "Já comecei outros cursos e parei.",
-              "Entendo algumas palavras, mas não consigo conversar.",
-              "Preciso do inglês para trabalho ou viagem.",
-              "Quero aprender de forma prática.",
-              "Quero evoluir com professores de verdade.",
-            ].map((dor) => (
+  "Tenho vergonha de falar francês.",
+  "Já comecei outros cursos e parei.",
+  "Entendo algumas palavras, mas não consigo conversar.",
+  "Preciso do francês para trabalho ou viagem.",
+  "Quero aprender de forma prática.",
+  "Quero evoluir com professores de verdade.",
+].map((dor) => (
               <div
                 key={dor}
                 className="bg-card border border-border rounded-2xl p-5 shadow-soft hover:border-primary/30 hover:-translate-y-0.5 transition"
@@ -651,8 +651,8 @@ function LandingPage() {
               <span className="text-sm font-bold text-primary uppercase tracking-wider">Por que escolher</span>
 
               <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
-                Muito mais que um curso de inglês em Limeira
-              </h2>
+  Muito mais que um curso de francês em Limeira
+</h2>
             </div>
 
             <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -660,7 +660,7 @@ function LandingPage() {
                 {
                   i: Mic,
                   t: "Aulas 100% conversação",
-                  d: "Você aprende praticando o inglês em situações reais, ganhando confiança para falar.",
+                  d: "Você aprende praticando o francês em situações reais, ganhando confiança para falar.",
                 },
                 {
                   i: RotateCw,
@@ -711,14 +711,14 @@ function LandingPage() {
               <span className="text-sm font-bold text-primary uppercase tracking-wider">Metodologia</span>
 
               <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
-                Uma metodologia para quem quer falar inglês de verdade
-              </h2>
+  Uma metodologia para quem quer falar francês de verdade
+</h2>
 
               <p className="mt-5 text-lg text-muted-foreground">
-                A metodologia da Excellent Global é não-linear e trabalha com revisão constante, prática
-                guiada e conversação. Isso permite que o aluno não apenas memorize conteúdos, mas consiga
-                usar o inglês com mais segurança no dia a dia.
-              </p>
+  A metodologia da Excellent Global é não-linear e trabalha com revisão constante, prática
+  guiada e conversação. Isso permite que o aluno não apenas memorize conteúdos, mas consiga
+  usar o francês com mais segurança no dia a dia.
+</p>
 
               <ol className="mt-7 space-y-3">
                 {[
@@ -740,10 +740,10 @@ function LandingPage() {
               </ol>
 
               <blockquote className="mt-8 p-5 border-l-4 border-accent bg-accent/5 rounded-r-xl">
-                <p className="text-lg font-semibold italic">
-                  "Aqui, o inglês não fica só no papel. Ele vira conversa."
-                </p>
-              </blockquote>
+  <p className="text-lg font-semibold italic">
+    "Aqui, o francês não fica só no papel. Ele vira conversa."
+  </p>
+</blockquote>
 
               <div className="mt-8">
                 <CTA event="click_whatsapp_metodologia">
@@ -755,7 +755,7 @@ function LandingPage() {
             <div className="relative">
               <img
                 src={teacherImg}
-                alt="Professora de inglês orientando aluna em aula de conversação"
+                alt="Professora de francês orientando aluna em aula de conversação"
                 width={1024}
                 height={768}
                 loading="lazy"
@@ -771,13 +771,13 @@ function LandingPage() {
 
           <div className="relative mx-auto max-w-5xl px-5 text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold">
-              Resgate sua aula demonstrativa gratuita de inglês
-            </h2>
+  Resgate sua aula demonstrativa gratuita de francês
+</h2>
 
             <p className="mt-5 text-lg text-white/85 max-w-2xl mx-auto">
-              Antes de escolher um curso, você pode viver a experiência Excellent Global na prática.
-              Conheça a metodologia, entenda o funcionamento das aulas e receba orientação sobre o melhor caminho para começar.
-            </p>
+  Antes de escolher um curso, você pode viver a experiência Excellent Global na prática.
+  Conheça a metodologia, entenda o funcionamento das aulas e receba orientação sobre o melhor caminho para começar.
+</p>
 
             <div className="mt-12 grid md:grid-cols-3 gap-5 text-left">
               {[
@@ -830,8 +830,8 @@ function LandingPage() {
               <span className="text-sm font-bold text-primary uppercase tracking-wider">Programas</span>
 
               <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
-                Escolha o ritmo ideal para aprender inglês
-              </h2>
+  Escolha o ritmo ideal para aprender francês
+</h2>
 
               <p className="mt-4 text-muted-foreground text-lg">
                 Diferentes formatos de estudo para se adaptar à rotina e ao objetivo de cada aluno.
@@ -870,20 +870,20 @@ function LandingPage() {
         <section className="py-20 md:py-28 bg-secondary/40">
           <div className="mx-auto max-w-5xl px-5">
             <h2 className="text-3xl md:text-4xl font-extrabold text-center max-w-3xl mx-auto">
-              O curso de inglês da Excellent Global é para você que...
-            </h2>
+  O curso de francês da Excellent Global é para você que...
+</h2>
 
             <ul className="mt-12 grid sm:grid-cols-2 gap-4">
               {[
-                "Quer aprender inglês em Limeira.",
-                "Precisa falar inglês para crescer profissionalmente.",
-                "Quer viajar com mais segurança.",
-                "Deseja estudar fora ou participar de intercâmbio.",
-                "Já tentou aprender antes, mas não conseguiu manter evolução.",
-                "Quer praticar conversação desde o início.",
-                "Prefere aprender com professores e acompanhamento.",
-                "Busca uma escola com estrutura física e tradição.",
-              ].map((p) => (
+  "Quer aprender francês em Limeira.",
+  "Precisa falar francês para crescer profissionalmente.",
+  "Quer viajar com mais segurança.",
+  "Deseja estudar fora ou participar de intercâmbio.",
+  "Já tentou aprender antes, mas não conseguiu manter evolução.",
+  "Quer praticar conversação desde o início.",
+  "Prefere aprender com professores e acompanhamento.",
+  "Busca uma escola com estrutura física e tradição.",
+].map((p) => (
                 <li key={p} className="flex items-start gap-3 bg-card border border-border rounded-xl p-4">
                   <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                   <span className="font-medium">{p}</span>
@@ -911,14 +911,13 @@ function LandingPage() {
               <span className="text-sm font-bold text-primary uppercase tracking-wider">Intercâmbio cultural</span>
 
               <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
-                Aprenda inglês e conecte-se com o mundo
-              </h2>
+  Aprenda francês e conecte-se com o mundo
+</h2>
 
               <p className="mt-5 text-lg text-muted-foreground">
-                A Excellent Global também oferece experiências de intercâmbio cultural, proporcionando aos
-                alunos contato com a cultura norte-americana e oportunidades de vivenciar o idioma de
-                maneira mais profunda.
-              </p>
+  A Excellent Global também oferece experiências de intercâmbio cultural, proporcionando aos
+  alunos contato com a cultura europeia e oportunidades de vivenciar o idioma de maneira mais profunda.
+</p>
 
               <div className="mt-8">
                 <CTA event="click_whatsapp_intercambio">
@@ -1067,12 +1066,12 @@ function LandingPage() {
 
           <div className="relative mx-auto max-w-3xl px-5">
             <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
-              Dê o primeiro passo para falar inglês com confiança
-            </h2>
+  Dê o primeiro passo para falar francês com confiança
+</h2>
 
             <p className="mt-5 text-lg md:text-xl text-white/85">
-              Agende sua aula demonstrativa gratuita e conheça a metodologia da Excellent Global na prática.
-            </p>
+  Agende sua aula demonstrativa gratuita e conheça a metodologia da Excellent Global na prática.
+</p>
 
             <div className="mt-10 flex flex-wrap justify-center gap-3">
               <a
@@ -1100,9 +1099,8 @@ function LandingPage() {
             </div>
 
             <p className="mt-3 text-primary-foreground/75 text-sm">
-              Escola de inglês em Limeira/SP. +25 anos formando alunos com conversação real e
-              metodologia prática.
-            </p>
+  Escola de francês em Limeira/SP. +25 anos formando alunos com conversação real e metodologia prática.
+</p>
           </div>
 
           <div>
@@ -1132,7 +1130,7 @@ function LandingPage() {
         </div>
 
         <div className="mx-auto max-w-6xl px-5 mt-10 pt-6 border-t border-white/10 text-xs text-primary-foreground/60">
-          © {new Date().getFullYear()} Excellent Global — Curso de Inglês em Limeira. Todos os direitos reservados. Desenvolvido por{" "}
+         © {new Date().getFullYear()} Excellent Global — Curso de Francês em Limeira. Todos os direitos reservados. Desenvolvido por{" "}
 <a
   href="https://bastelliconsultoria.com.br/"
   target="_blank"
