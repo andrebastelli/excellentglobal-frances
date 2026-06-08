@@ -491,10 +491,22 @@ function LandingPage() {
 
       <main role="main" id="top">
         {/* HERO */}
-        <section className="relative overflow-hidden bg-gradient-hero text-white">
-          <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_20%_20%,white,transparent_40%),radial-gradient(circle_at_80%_60%,white,transparent_40%)]" />
+<section className="relative overflow-hidden bg-gradient-hero text-white">
 
-          <div className="relative mx-auto max-w-7xl px-5 py-16 md:py-24 grid lg:grid-cols-2 gap-12 items-center">
+  {/* IMAGEM SUPER SUTIL */}
+  <div
+    className="absolute inset-0 bg-cover bg-center opacity-10 mix-blend-overlay"
+    style={{
+      backgroundImage: "url('/hero-frances.png')",
+    }}
+  />
+
+  {/* EFEITO RADIAL (mantém seu estilo original) */}
+  <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_20%_20%,white,transparent_40%),radial-gradient(circle_at_80%_60%,white,transparent_40%)]" />
+
+  <div className="relative mx-auto max-w-7xl px-5 py-16 md:py-24 grid lg:grid-cols-2 gap-12 items-center">
+
+  {/* TEXTO */}
             <div>
              <span className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-xs font-semibold tracking-wide">
   <MapPin className="h-3.5 w-3.5" /> LIMEIRA / SP — ESCOLA DE FRANCÊS
