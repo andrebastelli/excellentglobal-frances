@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --primary: #2b6dcb;
+  --primary-foreground: #ffffff;
+  --secondary: #f7cd41;
+  --secondary-foreground: #1a1a1a;
+  --muted: #f5f5f5;
+  --muted-foreground: #808080;
+  --accent: #dca919;
+  --accent-foreground: #1a1a1a;
+  --border: #e0e0e0;
+  --ring: #2b6dcb;
+  --highlight: #fff3cb;
+  --whatsapp: #25d366;
+  --whatsapp-foreground: #ffffff;
+  --gradient-hero: linear-gradient(135deg, #2b6dcb 0%, #1e5aa8 50%, #4a8fd8 100%);
+  --gradient-accent: linear-gradient(135deg, #f7cd41, #dca919);
+  --shadow-elegant: 0 20px 60px -20px rgba(43, 109, 203, 0.35);
+  --shadow-soft: 0 8px 30px -10px rgba(26, 26, 26, 0.12);
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 { letter-spacing: -0.02em; }
+  :focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+}
