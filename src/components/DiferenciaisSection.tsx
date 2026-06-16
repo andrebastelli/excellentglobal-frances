@@ -19,7 +19,7 @@ export default function DiferenciaisSection() {
             O que nos torna diferentes
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
-            Não somos mais um curso de inglês. Somos o método que funciona quando os outros não funcionaram.
+            Não somos mais um curso de francês. Somos o método que funciona quando os outros não funcionaram.
           </p>
         </div>
 

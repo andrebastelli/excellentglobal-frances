@@ -5,7 +5,7 @@ export interface FAQ {
 
 export const faqs: FAQ[] = [
   {
-    question: 'Preciso ter algum nível de inglês para fazer a aula gratuita?',
+    question: 'Preciso ter algum nível de francês para fazer a aula gratuita?',
     answer:
       'Não! A aula demonstrativa é para todos os níveis — do zero ao avançado. Nosso método identifica exatamente onde você está e adapta o conteúdo para o seu perfil.',
   },
@@ -17,7 +17,7 @@ export const faqs: FAQ[] = [
   {
     question: 'Qual é o foco do curso da Excellent Global?',
     answer:
-      '100% conversação desde a primeira aula. Aqui você pratica inglês falando de verdade, em situações do cotidiano, da carreira e de viagens. Nada de teoria chata ou gramática descontextualizada.',
+      '100% conversação desde a primeira aula. Aqui você pratica francês falando de verdade, em situações do cotidiano, da carreira e de viagens. Nada de teoria chata ou gramática descontextualizada.',
   },
   {
     question: 'O curso é presencial ou online?',
@@ -32,6 +32,6 @@ export const faqs: FAQ[] = [
   {
     question: 'Para quem é o curso da Excellent Global?',
     answer:
-      'Para jovens e adultos de Limeira e região que precisam de inglês para avançar na carreira, viajar com autonomia ou simplesmente parar de travar na hora de falar. Se você entende mas não consegue se expressar, este curso é para você.',
+      'Para jovens e adultos de Limeira e região que precisam de francês para avançar na carreira, viajar com autonomia ou simplesmente parar de travar na hora de falar. Se você entende mas não consegue se expressar, este curso é para você.',
   },
 ];

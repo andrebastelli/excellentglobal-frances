@@ -45,7 +45,7 @@ export default function Hero() {
           </div>
 
           <h1 className="font-display text-4xl md:text-5xl xl:text-6xl text-white leading-tight mb-6">
-            Destrave Seu Inglês{' '}
+            Destrave Seu Francês{' '}
             <span className="text-brand-yellow">em Limeira:</span>
             <br />
             Aula Grátis de{' '}
@@ -100,7 +100,7 @@ export default function Hero() {
           <div className="relative bg-brand-blue bg-opacity-20 rounded-3xl overflow-hidden border border-white border-opacity-10 aspect-[4/3]">
             <img
               src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&q=80&fm=webp"
-              alt="Alunos em aula de conversação em inglês na Excellent Global em Limeira"
+              alt="Alunos em aula de conversação em francês na Excellent Global em Limeira"
               className="w-full h-full object-cover opacity-80"
               fetchPriority="high"
               width="800"

@@ -149,7 +149,7 @@ export default function ContactForm({ onSuccess }: ContactFormProps) {
 
                 <div>
                   <label htmlFor="motivacao" className="block text-sm font-semibold text-gray-700 mb-2">
-                    Por que você quer aprender inglês? <span className="text-gray-400 font-normal">(opcional)</span>
+                    Por que você quer aprender francês? <span className="text-gray-400 font-normal">(opcional)</span>
                   </label>
                   <select
                     id="motivacao"

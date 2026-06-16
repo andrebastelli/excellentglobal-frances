@@ -621,7 +621,7 @@ function LandingPage() {
 </h2>
 
             <p className="mt-5 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Muitas pessoas estudam inglês por anos, decoram regras e fazem exercícios, mas continuam
+              Muitas pessoas estudam francês por anos, decoram regras e fazem exercícios, mas continuam
               inseguras quando precisam conversar. Na Excellent Global, o foco é diferente: você pratica,
               revisa e evolui com acompanhamento.
             </p>
@@ -854,7 +854,7 @@ function LandingPage() {
               {[
                 { t: "Extensivo", h: "2 h / semana", d: "Para quem quer aprender com constância e equilíbrio." },
                 { t: "Semi-intensivo", h: "4 a 6 h / semana", d: "Para acelerar a evolução sem comprometer toda a rotina." },
-                { t: "Intensivo", h: "10 a 15 h / semana", d: "Para quem tem urgência em desenvolver o inglês." },
+                { t: "Intensivo", h: "10 a 15 h / semana", d: "Para quem tem urgência em desenvolver o francês." },
                 { t: "Imersão", h: "20 a 26 h / mês", d: "Experiência mais profunda de aprendizado e prática." },
               ].map((p) => (
                 <div
@@ -911,7 +911,7 @@ function LandingPage() {
             <div className="order-2 lg:order-1">
               <img
                 src={groupImg}
-                alt="Alunos em troca cultural durante aulas de inglês"
+                alt="Alunos em troca cultural durante aulas de francês"
                 width={1024}
                 height={768}
                 loading="lazy"
@@ -933,7 +933,7 @@ function LandingPage() {
 
               <div className="mt-8">
                 <CTA event="click_whatsapp_intercambio">
-                  <Globe2 className="h-5 w-5" /> Quero começar pelo inglês
+                  <Globe2 className="h-5 w-5" /> Quero começar pelo francês
                 </CTA>
               </div>
             </div>
@@ -951,11 +951,11 @@ function LandingPage() {
               {[
                 {
                   n: "Nome do aluno",
-                  d: "Depoimento sobre a experiência com as aulas de inglês, evolução na conversação e atendimento da escola.",
+                  d: "Depoimento sobre a experiência com as aulas de francês, evolução na conversação e atendimento da escola.",
                 },
                 {
                   n: "Nome do aluno",
-                  d: "Depoimento sobre como a metodologia ajudou a ganhar confiança para falar inglês.",
+                  d: "Depoimento sobre como a metodologia ajudou a ganhar confiança para falar francês.",
                 },
                 {
                   n: "Nome do aluno",
@@ -1036,14 +1036,14 @@ function LandingPage() {
                 ],
                 [
                   "O curso é para iniciantes?",
-                  "Sim. A metodologia permite que alunos iniciantes também comecem a desenvolver o inglês de forma progressiva.",
+                  "Sim. A metodologia permite que alunos iniciantes também comecem a desenvolver o francês de forma progressiva.",
                 ],
                 [
                   "As aulas são presenciais em Limeira?",
                   "Sim. O atendimento e as aulas são presenciais em Limeira/SP.",
                 ],
                 [
-                  "Tenho vergonha de falar inglês. Esse curso é para mim?",
+                  "Tenho vergonha de falar francês. Esse curso é para mim?",
                   "Sim. As aulas são conduzidas para ajudar o aluno a ganhar confiança aos poucos, com prática e acompanhamento.",
                 ],
                 ["A escola oferece certificado?", "Sim. A Excellent Global oferece certificado ao aluno."],

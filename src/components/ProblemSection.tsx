@@ -1,7 +1,7 @@
 const pains = [
   {
     icon: '😰',
-    text: 'Você entende inglês, mas trava na hora de falar e a vergonha de errar paralisa tudo',
+    text: 'Você entende francês, mas trava na hora de falar e a vergonha de errar paralisa tudo',
   },
   {
     icon: '😓',
@@ -9,7 +9,7 @@ const pains = [
   },
   {
     icon: '😔',
-    text: 'Sente que o inglês está te impedindo de crescer na carreira ou viajar com autonomia',
+    text: 'Sente que o francês está te impedindo de crescer na carreira ou viajar com autonomia',
   },
 ];
 

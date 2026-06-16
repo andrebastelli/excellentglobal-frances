@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
   {
     name: 'Fernanda Lima',
     role: 'Analista de TI · Limeira/SP',
-    text: 'Eu travava completamente nas reuniões com clientes internacionais. Em 4 meses na Excellent Global, conduzi minha primeira call em inglês sozinha. Meu chefe percebeu e recebi uma promoção logo depois.',
+    text: 'Eu travava completamente nas reuniões com clientes internacionais. Em 4 meses na Excellent Global, conduzi minha primeira call em francês sozinha. Meu chefe percebeu e recebi uma promoção logo depois.',
     result: 'Promoção em 4 meses',
     initials: 'FL',
     color: 'bg-brand-blue',

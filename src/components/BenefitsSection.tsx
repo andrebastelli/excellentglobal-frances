@@ -7,7 +7,7 @@ const benefits = [
   {
     icon: '🚀',
     title: 'Oportunidades Profissionais',
-    desc: 'Inglês fluente abre portas em qualquer carreira',
+    desc: 'Francês fluente abre portas em qualquer carreira',
   },
   {
     icon: '✈️',
