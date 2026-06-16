@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="font-display font-bold text-white text-lg">Excellent Global</span>
             </div>
             <p className="text-sm leading-relaxed max-w-xs">
-              Escola de inglês em Limeira/SP com foco em conversação prática e evolução real.
+              Escola de francês em Limeira/SP com foco em conversação prática e evolução real.
             </p>
           </div>
 

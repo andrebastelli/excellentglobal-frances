@@ -16,7 +16,7 @@ export default function FinalCTASection() {
         <h2 className="font-display text-3xl md:text-5xl text-white mb-5 leading-tight">
           Não perca tempo!
           <br />
-          <span className="text-brand-yellow">Comece sua jornada no Inglês agora.</span>
+          <span className="text-brand-yellow">Comece sua jornada no Francês agora.</span>
         </h2>
 
         <p className="text-gray-300 text-lg mb-10 max-w-xl mx-auto">

@@ -13,7 +13,7 @@ export default function SolutionSection() {
               Nossa Solução
             </span>
             <h2 className="font-display text-3xl md:text-4xl text-white mb-6 leading-tight">
-              O método que tira seu inglês do papel — de verdade
+              O método que tira seu francês do papel — de verdade
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               Nosso método combina <strong className="text-white">prática intensiva</strong>, acompanhamento individualizado e aulas focadas na conversação. Nada de teoria chata — aqui você fala de verdade desde o primeiro dia.

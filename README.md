@@ -1,4 +1,4 @@
-# Excellent Global — Landing Page (Curso de Inglês em Limeira)
+# Excellent Global — Landing Page (Curso de Francês em Limeira)
 
 Landing page de alta conversão em **Vite + React + TypeScript + Tailwind CSS**, pronta para deploy no Vercel via GitHub.
 

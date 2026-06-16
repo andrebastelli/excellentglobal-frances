@@ -17,7 +17,7 @@ export default function OfferSection() {
         </span>
 
         <h2 className="font-display text-3xl md:text-5xl text-brand-dark mb-6 leading-tight">
-          Aula Demonstrativa de Inglês — 100% Gratuita
+          Aula Demonstrativa de Francês — 100% Gratuita
         </h2>
 
         <p className="text-brand-dark text-opacity-80 text-lg mb-8 max-w-xl mx-auto">
@@ -28,7 +28,7 @@ export default function OfferSection() {
         <div className="bg-white bg-opacity-60 rounded-3xl p-6 mb-8 text-left max-w-lg mx-auto">
           <p className="font-semibold text-brand-dark mb-4 text-center">O que você ganha na aula gratuita:</p>
           {[
-            'Aula real de conversação em inglês',
+            'Aula real de conversação em francês',
             'Diagnóstico completo do seu nível',
             'Plano personalizado de evolução',
             'Conhecer a escola e os professores',
