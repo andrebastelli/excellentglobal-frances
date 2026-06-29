@@ -20,7 +20,7 @@ import {
   ChevronDown,
 } from "lucide-react"; 
 import egLogo from "@/assets/eg-logo.png";
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { type ReactNode } from "react";
 
 // ============================================================
 // EDITE AQUI: número do WhatsApp ou defina VITE_WHATSAPP_NUMBER no .env
