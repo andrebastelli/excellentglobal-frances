@@ -112,6 +112,13 @@ function CTA({
               href={link}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                  (window as any).gtag("event", "conversion", {
+                    send_to: "AW-921935254/BRBZCNn2psYcEJa7zrcD",
+                  });
+                }
+              }}
               className="inline-flex items-center justify-center gap-3 rounded-full px-10 py-5 text-lg font-bold bg-whatsapp text-whatsapp-foreground shadow-elegant hover:brightness-110 hover:scale-[1.02] transition active:scale-[0.98]"
             >
               <MessageCircle className="h-6 w-6" />
